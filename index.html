@@ -20,6 +20,8 @@
     </style>
     <meta charset="UTF-8" name="viewport" content=""width="device-width, initial-scale=1.0">
     <title>Vogel's Sporting Goods</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <h1>Vogel's Sporting Goods</h1>
@@ -66,17 +68,8 @@
 <script>
     function myFunction(){
         var x = document.getElementById("frm1").elements["basketball"];
-        var text = "Total Basketballs:";
         var y = document.getElementById("frm2").elements["football"];
-        var text2 = "Total Footballs:";
         var z = document.getElementById("frm3").elements["puck"];
-        var text3 = "Total Pucks:";
-        for(i=1; i < x.length ;i++){
-            text += x.elements[i].value}
-        for(i=1; i < y.length ;i++){
-            text2 += y.elements[i].value}
-        for(i=1; i < z.length ;i++){
-            text3 += z.elements[i].value}
         document.getElementById("checkout").innerHTML = +x.value + +y.value + +z.value}
 
 </script>
