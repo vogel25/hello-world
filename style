@@ -1,0 +1,18 @@
+body{background-image:url("background.jpg");
+    width: 100%}
+h1{font-family:courier;font-size:75px;text-align:center;color:white;
+    border-radius: 10px; background:rgba(255,69,0,.75);
+    margin-left:75px;margin-right:75px;padding:10px;text-decoration:underline}
+.topnav{overflow: hidden;background-color:rgba(255,69,0,.75);height:75px;
+    width:100%;color:white;font-family:courier;border-radius:10px;text-align:center;
+    font-size:40px;padding:10px}
+.column{float:left;padding:10px;color:white;text-align:center;vertical-align:top}
+.column.side{width:25%;color:white}
+.column.middle{width:50%;color:white;}
+.row:after{content:"";display:table;clear:both;}
+@media(max-width:600px){.column.side,.column.middle{width:100%;}}
+img{float:left}
+h2{text-decoration:underline}
+.form-control{color:black}
+#checkout{color:black}
+#alert{color:black}

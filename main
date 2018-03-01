@@ -1,0 +1,5 @@
+function myFunction(){
+    var x = document.getElementById("frm1").elements["basketball"];
+    var y = document.getElementById("frm2").elements["football"];
+    var z = document.getElementById("frm3").elements["puck"];
+    document.getElementById("checkout").innerHTML = +x.value + +y.value + +z.value}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8" name="viewport" content=""width="device-width, initial-scale=1.0">
+    <title>Vogel's Sporting Goods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Vogel's Sporting Goods</h1>
+<hr>
+<div class="topnav">CLEARANCE SALE!! 20% OFF ALL ITEMS WITH PROMO CODE: AXLE</div>
+<div class="row">
+    <div class="column side">
+        <h2>Sportcenter Highlights</h2>
+        <p><div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https:/www.youtube.com/embed/lK-45eAm9VU">
+        </iframe>
+    </div></p>
+    </div>
+    <div class="column middle">
+        <h2>Featured Items</h2>
+        <p><img src="basketball.jpg"
+                                        alt="Basketball" style = "width:10%">Wilson Basketball<br>Price:&#36 29.99<br>In Stock: 33
+        <form id = "frm1" style = "width:20%">
+        <div class="form-group">
+            <label for="frm1">Qty:</label>
+            <input class="form-control" type="number" min ="1" max = "33" name = "basketball"></div>
+        <div class="form-group">
+            <input class="form-control" type="button" value="Add to Cart" onclick = "myFunction()"></div>
+    </form></p>
+        <p> <img src="football.jpg"
+                                          alt="Football" style="width:15%">Wilson NFL Football<br>Price:&#36 18.99<br>In Stock: 22
+        <form id ="frm2" style="width:20%">
+        <div class="form-group">
+            <label for="frm2">Qty:</label>
+            <input type="number" min="1" max="22" class="form-control" name = "football"></div>
+        <div class="form-group">
+            <input class="form-control" type="button" value="Add to Cart" onclick = "myFunction()"></div>
+    </form>
+        </p>
+        <p><img src="puck.jpg"
+                                        alt="Hockey Puck" style="width:10%">Hockey Puck<br>Price:&#36 12.49<br>In Stock:99
+        <form id = "frm3" style="width:20%">
+        <div class = "form-group">
+            <label for="frm3">Qty:</label>
+            <input type="number" min="1" max="99" class="form-control" name = "puck"></div>
+        <div class = "form-group">
+            <input class="form-control" type="button" value="Add to Cart" onclick = "myFunction()"></div></form></p>
+    </div>
+    <div class="'column side" style="color:white;text-align:center;vertical-align:top">
+        <h2>Shopping Cart</h2>
+        <p2 id = "demo">
+            Thank You For Shopping!<br><br><br>
+            Your Items<br>
+            <textarea id="checkout"></textarea><br>
+        <input id="alert" type ="button" value="Proceed to Checkout" onclick = alert("Thanks"+""+"For"+""+"Shopping!")>
+        </p2>
+    </div>
+</div>
+<script src = "main">
+</script>
+</body>
+</html>
